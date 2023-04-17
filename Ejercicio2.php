@@ -1,9 +1,19 @@
 <?php
 
 $frase = "Me encanta el Real Murcia";
-$letra = "a";
-$resultado = 4;
+$letra1 = "a";
+$letra2 = "A";
+$contador = 0;
 
-echo "La letra $letra aparece $resultado veces en la frase ''$frase''";
+for($i = 0; $i < strlen($frase); $i++){
+
+  if($frase[$i] == $letra1 || $frase[$i] == $letra2){
+
+      $contador++;
+
+  }
+}
+
+echo "La frase ''$frase'' tiene $contador letras 'A'";
 
 ?>

@@ -11,7 +11,7 @@ if($entrada_usuario == $usuario and $entrada_contraseña == $contraseña){
 
 } else {
 
-  echo "El usuario y la contraseña son incorrectos";
+  echo "El usuario y/o la contraseña son incorrectos";
 
 }
 

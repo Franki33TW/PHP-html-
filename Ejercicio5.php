@@ -1,25 +1,24 @@
 <?php
 
-$a = 7;
-$b = 9;
-$c = 101;
-$entrada_usuario = $c;
+$letra = "c";
 
-if($entrada_usuario == $a){
+switch($letra){
 
-  echo $a;
+  case "a":
+    echo "7";
+    break;
+  
+  case "b":
+    echo "9";
+    break;
 
-} elseif($entrada_usuario == $b){
+  case "c":
+    echo "101";
+    break;
 
-  echo $b;
-
-} elseif($entrada_usuario == $c){
-
-  echo $c;
-
-} else{
-
-  echo "Te has equivocado de letra";
+  default:
+    echo "La letra seleccionada es incorrecta";
+    break;
 
 }
 
