@@ -1,15 +1,16 @@
 <?php
 
-function suma(){
+$numero1 = (int)$_POST["n1"];
+$numero2 = (int)$_POST["n2"];
+$resultado = $numero1 + $numero2;
 
-$n1 = (int)$_POST['n1'];
-$n2 = (int)$_POST['n2'];
-$resultado = $n1 + $n2;
 
-    echo "La suma de $n1 + $n2 es: $resultado";
+function suma($n1, $n2, $res){
+
+    echo "La suma de $n1 + $n2 es: $res";
 
 }
 
-suma();
+suma($numero1,$numero2,$resultado);
 
 ?>
