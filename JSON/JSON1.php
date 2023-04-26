@@ -23,6 +23,7 @@ $jsonPHP = [
 
 echo $jsonPHP["personas"][2]["email"];
 echo "<br>";
-echo $jsonPHP["personas"][0]["edad"];
-
+echo $jsonPHP["personas"][0]["edad"]."<br>";
+$jsonPHP["animales"]="perro";
+var_dump($jsonPHP);
 ?>
