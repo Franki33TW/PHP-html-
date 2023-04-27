@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Desayunos</title>
+</head>
+<body>
+    <h1> Desayunos a la carta </h1>
+    <p> Puede elegir entre uno de estos desayunos:</p>
+    <ul>
+            <li><b>Gofres Belgas</b></li>
+            <li><b>Gofres Belgas con Fresas</b></li>
+            <li><b>Gofres Belgas con Frutos del Bosque</b></li>
+            <li><b>Tostada Francesa</b></li>
+            <li><b>Desayuno de la Casa</b></li>
+    </ul>
+    <form action="JSON5.php" method="post">
+        <label>Indica qué desayuno quiere elegir para saber su precio, descripcion y calorias:</label>
+        <br>
+        <input type="text" name="desayuno" required>
+        <br><br>
+        <input type="submit" value="Confirmar">
+    </form>
+</body>
+</html>
