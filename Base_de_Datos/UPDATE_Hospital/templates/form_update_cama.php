@@ -17,8 +17,8 @@
           <input type="text" name="planta" class="form-control">
         </div>
         <div class="form-group">
-          <label for="fechaCambioSabanas">Fecha Cambio Sábanas</label>
-          <input type="text" name="fechaCambioSabanas" class="form-control">
+          <label for="fecha">Fecha Cambio Sábanas</label>
+          <input type="text" name="fecha" class="form-control">
         </div>
         <div class="form-group">
           <input type="submit" name="actualizar_cama" class="btn btn-primary" value="Actualizar Cama">
