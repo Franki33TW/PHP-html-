@@ -1,12 +1,11 @@
 <h1>Ejercicios de Funciones 2</h1>
 <?php 
     function sumaResta($num1, $num2, $num3, $suma, $resta) {
-        $resultado = "";
 
         if (($num1 + $num2 + $num3) == $suma) {
-            $resultado .= "$suma es la suma";
+            $resultado = "$suma es la suma";
         } else {
-            $resultado .= "$suma no es la suma";
+            $resultado = "$suma no es la suma";
         }
         $resultado .= " y ";
 
