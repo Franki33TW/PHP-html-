@@ -10,7 +10,7 @@
       $camasResultado = $conexion->query("SELECT * FROM camas");
       echo '<a class="btn btn-primary" href="../templates/index_update_camas.php">Editar</a>
             <a class="btn btn-primary" href="../templates/index_insert_camas.php">Alta</a>
-            <a class="btn btn-primary" href="../templates/index_delete_camas.php" >Borrar</a>
+            <a class="btn btn-primary" href="../templates/index_delete_camas.php">Borrar</a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

@@ -21,7 +21,7 @@
           <input type="date" name="fecha" class="form-control">
         </div>
         <div class="form-group">
-          <input type="submit" name="actualizar_cama" class="btn btn-primary" value="Actualizar Cama">
+          <input type="submit" name="actualizar_cama" class="btn btn-primary" value="Actualizar cama">
         </div>
       </form>
     </div>

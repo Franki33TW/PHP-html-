@@ -64,6 +64,6 @@ if (isset($resultado)) {
 
 ?>
 
-<?php include "../templates/footer.php"; ?>
-
 <?= '<a class="btn btn-primary" href="select_consultas.php">Volver</a>' ?>
+
+<?php include "../templates/footer.php"; ?>

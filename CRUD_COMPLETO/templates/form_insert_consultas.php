@@ -29,7 +29,7 @@ echo '<div class="container">
           <label for="medico">Medico: </label>
           <select name="medico">
           <option value="OpcionDefecto">Elija un medico</option>';
-          $medicosResultado = $conexion->query("SELECT dni,especialidad, nombre, apellido1, apellido2  FROM medicos");
+          $medicosResultado = $conexion->query("SELECT dni, especialidad, nombre, apellido1, apellido2 FROM medicos");
           
           while ($row = $medicosResultado->fetch()) {
               echo '<option value="'.$row[0].'">('.$row[1].') - '.$row[2].' '.$row[3].' '.$row[4].'</option>';

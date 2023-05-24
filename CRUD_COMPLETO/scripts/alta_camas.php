@@ -16,8 +16,8 @@ if (isset($_POST['insertar_cama'])) {
       "fechaCambioSabanas" => $_POST['fecha']
     );
     
-    $consultaSQL = "INSERT INTO camas (zona, planta, fechaCambioSabanas) ";
-    $consultaSQL .= "values (:" . implode(", :", array_keys($cama)) . ")";
+    $consultaSQL = "INSERT INTO camas ";
+    $consultaSQL .= "values (null, :" . implode(", :", array_keys($cama)) . ")";
 
     $sentencia = $conexion->prepare($consultaSQL);
     $sentencia->execute($cama);

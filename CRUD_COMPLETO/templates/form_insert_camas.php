@@ -14,7 +14,7 @@
         </div>
         <div class="form-group">
           <label for="fecha">Fecha Cambio Sábanas</label>
-          <input type="text" name="fecha" class="form-control">
+          <input type="date" name="fecha" class="form-control">
         </div>
         <div class="form-group">
           <input type="submit" name="insertar_cama" class="btn btn-primary" value="Insertar Cama">
