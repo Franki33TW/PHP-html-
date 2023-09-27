@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>JSON 6</title>
+</head>
+<body>
+    <h1>Datos de animales</h1>
+    <p>A continuación verás los animales que tenemos en la base de datos, puedes saber su información y hasta añadir un nuevo animal.</p>
+    <br> 
+    <img src="https://i0.wp.com/blog.terranea.es/wp-content/uploads/2020/09/075-1.jpg?w=640&ssl=1" alt="perro">
+    <br> 
+    <form action="JSON6.php" method="post">
+        <label>¿Quieres saber los datos del perro?</label>
+        <br><br>
+        <input type="submit" name="dato_perro" value="Ver">
+    </form>
+    <br>
+    <br> 
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQprfYLV9KZ4n3xAAH5IEvY64CnAY16lnnvi3n6AhqFtkW1e3IWf2BE5Cne-YVJBsP7eSw&usqp=CAU" alt="gato">
+    <br>  
+    <form action="JSON6.php" method="post">  
+        <label>¿Quieres saber los datos del gato?</label>
+        <br><br>
+        <input type="submit" name="dato_gato" value="Ver">
+    </form>
+    <br> 
+    <br>     
+    <form action="JSON6.php" method="post">
+        <h2>¿Quieres añadir un nuevo animal?</h2>
+        <h3>Escribe sus datos</h3>
+        <br>   
+        <label>Tipo:</label>
+        <input type="text" name="tipo" required>
+        <br>
+        <label>Nombre:</label>
+        <input type="text" name="nombre" required>
+        <br>
+        <label>Raza:</label>
+        <input type="text" name="raza" required>
+        <br>
+        <label>Ubicación:</label>
+        <input type="text" name="Ubicacion" required>
+        <br>
+        <label>Edad:</label>
+        <input type="text" name="edad" required>
+        <br><br>
+        <input type="submit" name="dato_nuevo" value="Añadir">
+    </form>
+    <br> 
+    <br> 
+    <form action="JSON6.php" method="post">
+        <h2>¿Quieres ver todos los animales?</h2>
+        <input type="submit" name="mostrar" value="Ver">
+        </form>
+</body>
+</html>
